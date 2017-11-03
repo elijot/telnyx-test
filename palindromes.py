@@ -44,7 +44,7 @@ def get_palindromes(start: int, end: int, start_base: int=2) -> list:
     while i <= end:
         base = start_base
         if start_base < 2:
-            raise ValueError('Base needs to be grater than 2')
+            raise ValueError('Base needs to be >= 2')
         while True:
             n = ternary(i, base)
             if is_palindrome(n):
