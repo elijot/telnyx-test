@@ -1,0 +1,15 @@
+Hello,
+This simple repository contains solution with tests for:
+https://www.dropbox.com/s/i0sgzwerxh2epvy/palindromic_numbers.pdf?dl=0
+
+INSTALLATION:
+1. Create virtualenv and activate it
+2. run pip install -r requirements
+
+RUN SCRIPT
+Simply run palindromes.py
+
+
+Regards
+Lukasz
+
